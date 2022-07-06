@@ -1,0 +1,34 @@
+.navbar{
+    width: 100%;
+    
+    position: fixed;
+}
+.navbar-brand{
+    margin-left: 40px;
+
+}
+
+
+.nav-item{
+    margin-left: 30px;
+    -webkit-font-smoothing: antialiased;
+    font-size: 14px;
+    font-family: "languageFont","AvenirNext","Microsoft YaHei","MicrosoftJhengHei",sans-serif,"WebRupee";
+     /* white space makes it so the navbar does not come down again */
+    
+    flex-wrap: nowrap;
+    white-space: nowrap
+       
+      
+    
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+    color: blue;
+}
+.navbar-light .navbar-nav .nav-link{
+    color:black;
+}
+.vep-pc-account-image-box {
+    margin-left: 60px;
+    
+}
